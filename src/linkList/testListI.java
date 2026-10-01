@@ -7,6 +7,8 @@ public class testListI {
 		
 		ListReferenceBased list = new ListReferenceBased();
 		System.out.println("Is the Linked List empty?: " + list.isEmpty());
+		
+		System.out.println("The size of the list is: " + list.size());
 	}
 
 }
