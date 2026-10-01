@@ -127,6 +127,22 @@ public class ListReferenceBased implements ListInterface
 		 System.out.println(curr.getItem());
 	 }
   }
+  public String listLongest() {
+	  Node curr = head;
+	  String longestword = (String) curr.getItem();
+	  
+	  while(curr != null) {
+		  String current = (String) curr.getItem();
+		  
+		  if (current.length() > longestword.length()) {
+			  longestword = current;
+		  }
+		  else
+			  curr = curr.getNext();
+	  }
+	  return longestword;
+	  
+  }
 
 
 } // end ListReferenceBased

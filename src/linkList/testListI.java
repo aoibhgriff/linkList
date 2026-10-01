@@ -10,13 +10,14 @@ public class testListI {
 		
 		System.out.println("The size of the list is: " + list.size());
 		
-		Object one = 5;
-		Object two = 9;
+		Object one = "one";
+		Object two = "three";
 		
 		list.add(1, one);
 		list.add(2, two);
 		
 		list.displaylist();
+		System.out.println("The longest String is : " + list.listLongest());
 	
 		System.out.println("The object at index 1 is : " + list.get(1));
 		
