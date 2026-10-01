@@ -17,6 +17,12 @@ public class testListI {
 		list.add(2, two);
 	
 		System.out.println("The object at index 1 is : " + list.get(1));
+		
+		list.remove(2);
+		System.out.println("The size of the list is: " + list.size());
+		
+		list.removeAll();
+		System.out.println("The size of the list is: " + list.size());
 	}
 
 }
