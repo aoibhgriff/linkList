@@ -9,6 +9,13 @@ public class testListI {
 		System.out.println("Is the Linked List empty?: " + list.isEmpty());
 		
 		System.out.println("The size of the list is: " + list.size());
+		
+		Object one = 5;
+		Object two = 9;
+		
+		list.add(1, one);
+		list.add(2, two);
+	
 	}
 
 }
