@@ -16,6 +16,7 @@ public class testListI {
 		list.add(1, one);
 		list.add(2, two);
 	
+		System.out.println("The object at index 1 is : " + list.get(1));
 	}
 
 }
